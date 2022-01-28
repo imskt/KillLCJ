@@ -430,11 +430,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
+        if (cps <= 5) return '弟中之弟嗷';
+        if (cps <= 8) return '李亲罩和安布瑞拉都惊呆了';
+        if (cps <= 10)  return '李亲罩和安布瑞拉都吓死了';
         if (cps <= 15) return '您';
-        return '人？';
+        return '你是一个一个一个挂逼啊啊啊啊啊啊啊啊';
     }
 
     function toStr(obj) {
@@ -471,7 +471,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function initSetting() {
         $("#username").val(cookie("username") ? cookie("username") : "");
         $("#message").val(cookie("message") ? cookie("message") : "");
-        $("title").text(cookie("title") ? cookie("title") : "吃掉小鹿乃");
+        $("title").text(cookie("title") ? cookie("title") : "杀死李龟黏");
         let keyboard = cookie('keyboard');
         if (keyboard) {
             keyboard = keyboard.toLowerCase();
