@@ -435,11 +435,11 @@ function backBtn() {
 function shareText(score) {
 
     deviation_time = (date2.getTime() - _date1.getTime())
-    if (score <= 2.5 * __Time) return '真的太逊了，弟中之弟嗷';
-    if (score <= 5 * __Time) return '李亲罩和安布瑞拉都惊呆了';
-    if (score <= 7.5 * __Time) return '李亲罩和安布瑞拉都吓死了';
-    if (score <= 10 * __Time) return '李亲罩和安布瑞拉都复活了';
-    return '你是一个一个一个挂逼啊啊啊啊啊啊啊啊';
+    if (score <= 2.5 * __Time) return '加油！我相信您可以的！';
+    if (score <= 5 * __Time) return '^_^ 加把劲，底力大王就是您！';
+    if (score <= 7.5 * __Time) return '您！';
+    if (score <= 10 * __Time) return '太 您 了！';
+    return '您是外星人嘛？';
 }
 
 function toStr(obj) {
